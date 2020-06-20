@@ -1,4 +1,4 @@
 #!/bin/sh
 
-# start the tomcat
+service apache2 start && \
 $CATALINA_HOME/bin/catalina.sh run
